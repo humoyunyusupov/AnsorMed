@@ -1,0 +1,241 @@
+body {
+  font-family: "Open Sans";
+}
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header {
+  padding: 24px 0px;
+}
+
+.site-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.nav-list :active {
+  opacity: 0.6;
+}
+.nav-item {
+  padding-left: 38px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(34, 34, 34);
+}
+.nav-item :hover {
+  color: rgb(222, 46, 84);
+}
+.qabul {
+  text-decoration: none;
+  padding: 12px 24px;
+  background: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.qabul:hover {
+  background-color: white;
+  color: rgb(222, 46, 84);
+}
+.qabul :active {
+  color: rgb(255, 255, 255);
+  background: rgb(222, 46, 84);
+  opacity: 0.6;
+}
+.hero {
+  background: rgb(14, 180, 193);
+}
+.hero-img {
+  margin-top: 29px;
+}
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+}
+.hero-text {
+  padding-bottom: 36px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
+}
+.duty {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.duty-list {
+  list-style: none;
+}
+.services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.duty-theme {
+  width: 600px;
+  padding-left: 64px;
+}
+.duty-item {
+  margin-bottom: 80px;
+}
+.duty-title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: rgb(34, 34, 34);
+}
+.duty-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(68, 68, 68);
+}
+.qabul-button {
+  display: flex;
+  justify-content: center;
+}
+.third-section {
+  width: 1440px;
+  height: 253px;
+  left: 1px;
+  top: 2117px;
+  background: rgb(14, 180, 193);
+  margin: auto;
+}
+
+.contacts-title {
+  padding-top: 64px;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+}
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: auto;
+}
+.contacts-item {
+  text-decoration: none;
+  padding: 12px 24px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.contacts-item:hover {
+  background-color: rgb(222, 46, 84);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(222, 46, 84);
+}
+.contacts-item:active {
+  opacity: 0.6;
+}
+.site-footer {
+  margin-right: 340px;
+}
+.site-inner-footer {
+  width: 1440px;
+  height: 97.94px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #222222;
+}
+
+.nav-list-footer {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.nav-text-footer {
+  padding-left: 38px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: rgb(255, 255, 255);
+}
+.nav-text-footer:hover {
+  color: rgb(222, 46, 84);
+}
+.nav-text-footer:active {
+  color: rgb(240, 248, 255);
+  opacity: 0.6;
+}
+
+.logo-site {
+  display: flex;
+  align-items: center;
+  width: 119px;
+  height: 33px;
+
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+}
+.logo-site:hover {
+  color: rgb(222, 46, 84);
+}
+.logo-site:active {
+  color: rgb(240, 248, 255);
+  opacity: 0.6;
+}
+.logo-site-img {
+  padding-right: 10px;
+}
